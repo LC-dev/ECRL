@@ -52,7 +52,7 @@ if __name__ == '__main__':
     if config['WANDB']['log']:
         # initialize weights & biases run
         wandb_run = wandb.init(
-            entity="",
+            entity="lynn-cherif",
             project="ECRL",
             sync_tensorboard=False,
             settings=wandb.Settings(start_method="fork"),

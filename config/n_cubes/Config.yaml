@@ -7,7 +7,7 @@ collectDataNumTimesteps: 300_000
 envCheck: False
 
 WANDB:
-  log: False
+  log: True
   logPolicyStats: False  # setting to False significantly accelerates training
   episodeVisFreq: 800
 
